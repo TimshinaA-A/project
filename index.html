@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Массажный салон</title>
+    <title>Массажный центр</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+    .header {
+
+    }
+</style>
 </head>
 <body>
-    <header class="header">
-        <img class="header__logo" img="images/Logo_-_Good4Me_140x 1.svg" alt="Логотип" width="150" heigh="150"
-        <h1 class="header__title"> Массажный салон</h1>
+    <header class="header container">
+        <img class="header__logo" src="images/Logo_-_Good4Me_140x 1.svg" alt="Логотип" width="150" heigh="150">
+        <h1 class="header__title"> Массажный центр</h1>
         <br> <nav class="header__menu">
             <ul class="menu">
                 <li class="menu__item menu__item--active">
@@ -38,8 +45,8 @@
             </ul>
         </nav>
         <form class="header__search-form">
-            <input class="header__search-form__input" type="input">
-            <button class="header__search-from__button" type="button">
+            <input class="header__search-form__input" type="text">
+            <button class="header__search-from__button" type="search">Поиск</button>
         </form>
         <a class="header__button" href="login.html">Вход</a>
         <form action="/">
@@ -53,10 +60,11 @@
         <a class="header__button" href="registration.html">Регистрация</a>
     </form>
     </header>
-    <main class="main">
+    <main class="main container">
         <section>
             <div class="about-us">
                 <h2 class="about-us__title">Наши преимущества</h2>
+                <p class="about-us__text" >Мы - команда массажистов, готовые помочь вам расслабиться и восстановить силы</p>
                 <p class="about-us__text" >Салон предоставляет расслабляющий массаж всего тела, также предоставляются дополнительные услуги: ароматерапия, кофейные скрабы, чайные церемонии </p>
             </div>
         </section>
@@ -103,11 +111,14 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section  id="contacts">
             <h2>Контакты</h2>
+            <p>Телефон: +7 (952) 721-34-65</p>
+            <p>Email: t30alena@gmail.com
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
+        <p>&copy; 2025 Массажный центр </p>
         <p>Сайт создан Тимшиной Аленой группа МИ-41</p>
         <ul>
             <li><a href="#">Правовая политика</a></li>
@@ -115,5 +126,6 @@
             <li><a href="#">Политика конфиденциальности</a></li>
         </ul>
     </footer>
+    <script scr="script.js"></script>
 </body>
 </html>
