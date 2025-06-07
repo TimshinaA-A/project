@@ -1,0 +1,20 @@
+@font-face{
+    font-family: Jost;
+    font-weight: normal;
+    font-display: swap;
+    scr: url('../fonts/Jost-MediumItalic.woff2') format('wpff2')
+}
+@font-face {
+font-family: "Jost";
+src: url("../fonts/Jost-SemiBold.woff2");
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: "Jost";
+src: url("../fonts/Jost-SemiBoldItalic.woff2");
+font-weight: bold;
+font-style: italic;
+font-display: swap;
+}
