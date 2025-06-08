@@ -48,7 +48,7 @@ nav ul li a {
 }
 .menu{
 	list-style: none;
-	position: absolute;
+	position: center;
 	top: 10px;
 	right: 100px;
 }
