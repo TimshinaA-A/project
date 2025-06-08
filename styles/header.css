@@ -19,5 +19,9 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
-
-
+.menu__item {
+    list-style: none;
+	position: center;
+	top: 10px;
+	right: 100px;
+}
