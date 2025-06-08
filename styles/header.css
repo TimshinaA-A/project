@@ -19,15 +19,19 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
-.menu__item {
-    list-style: none;
-	position: center;
-	top: 10px;
-	right: 100px;
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
-.header__button {
-    list-style: none;
-	position: relative;
-	top: 10px;
-	right: 100px;
+.menu__link {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+
+    background-color: rgb(62, 120, 167);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
