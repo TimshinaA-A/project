@@ -1,7 +1,34 @@
+
 main {
     padding: 20px;
 }
 
 section {
     margin-bottom: 40px;
+}
+.about{
+ display: flex;
+ gap: 10px;
+}
+.about__wrap-right{
+ width: 500px;
+ flex-shrink: 0;
+}
+.about{
+background-color: #2b9a77;
+ color: rgb(255, 255, 255);
+ padding: 10px;
+}
+.about__button{
+ display: block;
+ padding: 10px;
+ color:rgb(251, 251, 251);
+ background-color: rgb(20, 84, 52);
+ text-decoration: none;
+ margin-top: auto;
+ margin-right: auto;
+}
+.about__wrap-left{
+ display: flex;
+ flex-direction: column;
 }
