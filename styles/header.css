@@ -45,3 +45,27 @@
     top: 10px;
     right: 10px;
 }
+.header__logo-wrap{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.header__logo-wrap{
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+}
+.header__title{
+ margin: 0;
+}
+.header{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ justify-content: space-between;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.header__menu{
+ width: 100%;
+ flex-shrink: 0;
+}
