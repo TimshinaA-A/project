@@ -39,7 +39,7 @@ color: black;
  box-shadow: 1px 2px 20px 5px #d7d7d7;
 }
 
-.articles-menu__card{
+.articles-menu{
  width: 350px;
  padding: 15px;
  background-color: aliceblue;
@@ -60,7 +60,7 @@ color: black;
     margin-top: 0;
  margin-bottom: 15px;
 }
-.articles-menu__button button{
+.menu__button{
     display: block;
  padding: 10px;
  background-color: rgb(26, 102, 41);
@@ -69,7 +69,7 @@ color: black;
  text-align: center;
  margin-top: auto;
 }
-.articles-menu__title__list{
+.articles-menu{
     margin: 0;
  padding: 20px 0;
  display: flex;
