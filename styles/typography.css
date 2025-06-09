@@ -20,13 +20,12 @@
 }
 .card__button button{
 
-    background-color: rgb(20, 84, 52);
+    background-color: rgb(57, 173, 134);
     color: antiquewhite;
-    border: 1px solid #2b9a77;
-
+    border: 1px solid #134334;
 }
 .articles-menu__button button{
-     background-color: rgb(20, 84, 52);
+     background-color: rgb(57, 173, 134);
     color: antiquewhite;
-    border: 1px solid #2b9a77;
+    border: 1px solid #134334;
 }
