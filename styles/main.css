@@ -22,7 +22,7 @@ background-color: #2b9a77;
  display: block;
  padding: 10px;
  color:rgb(251, 251, 251);
- background-color: rgb(20, 84, 52);
+ background-color:rgb(57, 173, 134);
  text-decoration: none;
  margin-top: auto;
  margin-right: auto;
@@ -30,4 +30,31 @@ background-color: #2b9a77;
 .about__wrap-left{
  display: flex;
  flex-direction: column;
+}
+.articles-menu{
+     width: 350px;
+ padding: 15px;
+ background-color: rgb(91, 217, 131);
+color: black;
+ box-shadow: 1px 2px 20px 5px #d7d7d7;
+}
+
+.articles-menu__title{
+    margin-top: 15px;
+ margin-bottom: 15px;
+ font-size: 20px;
+ font-weight: bold;
+ text-align: center;
+}
+.article-menu__text{
+    margin-top: 0;
+ margin-bottom: 15px;
+}
+.articles-menu__button button{
+    display: block;
+ padding: 10px;
+ background-color: rgb(26, 102, 41);
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ text-align: cente
 }
