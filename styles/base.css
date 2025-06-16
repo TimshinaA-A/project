@@ -50,11 +50,9 @@ overflow: hidden;
 .html[Attributes Style] {
     -webkit-locale: "ru";
 }
-user agent stylesheet
 :root {
     view-transition-name: root;
 }
-user agent stylesheet
 .html {
     display: block;
 }
