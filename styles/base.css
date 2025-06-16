@@ -4,15 +4,14 @@
 box-sizing: border-box;
 }
 html,
-body {
-    font-family: 'Jost', Arial, sans-serif;
-    font-size: 20px;
-    line-height: 38px;
-    color: #000000;
-    background-color: #ffffff;
-    overflow-x: hidden;
+.body {
+    font-family: 'Segoe UI', 'Montserrat', sans-serif;
+    background-color: var(--secondary);
+    color: var(--primary);
+    line-height: 1.6;
+    padding-bottom: 2rem;
 }
-img {
+.img {
 display: block;
 max-width: 100%;
 height: auto;
