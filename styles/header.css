@@ -1,71 +1,52 @@
-.header {
-    background:#2b9a77;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-}
-.h1{
-  color: #f6f5f1;
-  font: 40px Jost; 
-  margin-left: 300px;
-}
-.descript{
-  width: 300px;
-  color: #f6f5f1;
-  font-style: bold;
-  margin: 70px 0 0 30px; 
-  font-size:22px; 
-}
-.menu {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+header {
+    background: var(--white);
+    padding: 1rem 2rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e2e2e2;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
-.menu__link {
-    display: block;
-    padding: 10px;
-    margin: 5px;
 
-    background-color:#2b9a77;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    position: center;
+header strong {
+    font-size: 1.5rem;
 }
-.header__button{
-    display: inline-block;
-    padding: 10px;
-    margin: 5px;
 
-    background-color: rgb(20, 84, 52);
-    color: rgb(255, 255, 255);
+nav,
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+nav a,
+.sidebar a {
     text-decoration: none;
-    position: relative;
-    top: 10px;
-    right: 10px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
-.header__logo-wrap{
- display: flex;
- align-items: center;
- gap: 10px;
+
+nav a:hover,
+.sidebar a:hover {
+    background: var(--primary);
+    color: var(--white);
 }
-.header__logo-wrap{
- text-decoration: none;
- color: rgb(255, 255, 255);
+
+nav a.buy-ticket,
+.sidebar a.buy-ticket {
+    border-color: var(--accent);
+    color: var(--accent);
 }
-.header__title{
- margin: 0;
-}
-.header{
- display: flex;
- flex-wrap: wrap;
- gap: 10px;
- justify-content: space-between;
- padding-top: 20px;
- padding-bottom: 20px;
-}
-.header__menu{
- width: 100%;
- flex-shrink: 0;
+
+nav a.buy-ticket:hover,
+.sidebar a.buy-ticket:hover {
+    background: var(--accent);
+    color: var(--white);
 }
