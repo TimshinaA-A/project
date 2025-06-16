@@ -78,7 +78,7 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
-nav a.buy-ticket, .sidebar a.buy-ticket {
+.nav a.buy-ticket, .sidebar a.buy-ticket {
     border-color: var(--accent);
     color: var(--accent);
 }
@@ -133,9 +133,5 @@ a:-webkit-any-link {
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    text-decoration
-Decorations applied to font used for an element's text.
-Learn more
-Don't show
-: underline;
+    text-decoration: underline;
 }
