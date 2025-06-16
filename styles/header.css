@@ -1,4 +1,4 @@
-.header {
+header {
     background: var(--white);
     padding: 1rem 2rem;
     display: flex;
@@ -10,56 +10,20 @@
     top: 0;
     z-index: 1000;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.header {
-    display: block;
-    unicode-bidi: isolate;
-}
-.body {
-    font-family: 'Segoe UI', 'Montserrat', sans-serif;
-    background-color: var(--secondary);
-    color: var(--primary);
-    line-height: 1.6;
-    padding-bottom: 2rem;
-}
-:root {
-    --primary: #4e3d42;
-    --secondary: #f8f4f0;
-    --accent: #ff7b7b;
-    --white: #ffffff;
-    --gray: #777;
-}
-.header strong {
+
+header strong {
     font-size: 1.5rem;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.strong {
-    font-weight: bolder;
-}
-.nav, .sidebar {
-    display: flex
-;
+
+nav,
+.sidebar {
+    display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.nav {
-    display: block;
-    unicode-bidi: isolate;
-}
-.nav a, .sidebar a {
+
+nav a,
+.sidebar a {
     text-decoration: none;
     color: var(--primary);
     border: 2px solid var(--primary);
@@ -68,70 +32,21 @@
     font-weight: 600;
     transition: all 0.3s ease;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+nav a:hover,
+.sidebar a:hover {
+    background: var(--primary);
+    color: var(--white);
 }
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.nav a.buy-ticket, .sidebar a.buy-ticket {
+
+nav a.buy-ticket,
+.sidebar a.buy-ticket {
     border-color: var(--accent);
     color: var(--accent);
 }
-.nav a, .sidebar a {
-    text-decoration: none;
-    color: var(--primary);
-    border: 2px solid var(--primary);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.nav, .sidebar {
-    display: flex
-;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.div {
-    display: block;
-    unicode-bidi: isolate;
-}
-.nav a, .sidebar a {
-    text-decoration: none;
-    color: var(--primary);
-    border: 2px solid var(--primary);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
+
+nav a.buy-ticket:hover,
+.sidebar a.buy-ticket:hover {
+    background: var(--accent);
+    color: var(--white);
 }
