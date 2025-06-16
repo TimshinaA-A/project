@@ -52,8 +52,7 @@ main, .announcements, .info-section {
     margin: 0;
     padding: 0;
 }
-user agent stylesheet
-main {
+.main {
     display: block;
     unicode-bidi: isolate;
 }
