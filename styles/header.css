@@ -44,6 +44,51 @@ nav a.buy-ticket,
     border-color: var(--accent);
     color: var(--accent);
 }
+/* === Layout === */
+main,
+.announcements,
+.info-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main,
+.announcements {
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.announcements {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.announcements h3 {
+    margin-bottom: 1.5rem;
+}
 
 nav a.buy-ticket:hover,
 .sidebar a.buy-ticket:hover {
