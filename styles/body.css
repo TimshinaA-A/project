@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', 'Montserrat', sans-serif;
+    background-color: var(--secondary);
+    color: var(--primary);
+    line-height: 1.6;
+    padding-bottom: 2rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --primary: #4e3d42;
+    --secondary: #f8f4f0;
+    --accent: #ff7b7b;
+    --white: #ffffff;
+    --gray: #777;
+}
