@@ -42,11 +42,7 @@
     padding: 0;
 }
 .strong {
-    font-weight
-Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.
-Learn more
-Don't show
-: bolder;
+    font-weight: bolder;
 }
 .nav, .sidebar {
     display: flex
@@ -80,11 +76,7 @@ Don't show
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    text-decoration
-Decorations applied to font used for an element's text.
-Learn more
-Don't show
-: underline;
+    text-decoration: underline;
 }
 nav a.buy-ticket, .sidebar a.buy-ticket {
     border-color: var(--accent);
